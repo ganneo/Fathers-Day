@@ -30,14 +30,16 @@ body {
 
 .btn-trans:first-of-type {
   border-radius: 5px;
-  background-color: transparent;
+  background-color: yellow;
   border: 1px solid white;
   color: transparent;
   padding: 1rem 3rem;
-  animation: shadow 2s infinite forwards;
-  transition: all 2s ease-in-out;
+  animation: shadow 4s infinite forwards;
   &:hover {
-    background: skyblue;
+    background: red;
+    border: 1px solid red;
+    box-shadow: -2px -2px 10px red;
+    animation: none;
   }
 }
 
@@ -47,21 +49,26 @@ body {
   background-color: transparent;
   border: 1px solid white;
   padding: 1rem 3rem;
-  animation: box-shadow 2s infinite forwards;
+  animation: box-shadow 4s infinite forwards;
   transition: all 2s ease-in-out;
   &:hover {
-    background: skyblue;
+    background: red;
+    border: 1px solid red;
+    box-shadow: 2px 2px 10px red;
+    animation: none;
   }
 }
 
 @keyframes shadow {
   50% {
-    box-shadow: 5px 5px 10px white;
+    background-color: gold;
+    box-shadow: 2px 2px 10px gold;
   }
 }
 @keyframes box-shadow {
   50% {
-    box-shadow: -5px -5px 10px white;
+    background-color: gold;
+    box-shadow: -2px -2px 10px gold;
   }
 }
 
