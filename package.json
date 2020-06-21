@@ -1,0 +1,26 @@
+{
+  "name": "fathers-day",
+  "version": "1.0.0",
+  "description": "Website for Fathers Day",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ganneo/Fathers-Day.git"
+  },
+  "keywords": [
+    "Fathers",
+    "Day"
+  ],
+  "author": "Neo Gan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ganneo/Fathers-Day/issues"
+  },
+  "homepage": "https://github.com/ganneo/Fathers-Day#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
